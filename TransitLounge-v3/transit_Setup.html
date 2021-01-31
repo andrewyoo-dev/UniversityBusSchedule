@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Transit Lounge</title>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>        
+        <link rel="stylesheet" type="text/css" href="transit-EWU.css">
+        <script src="transit_Setup.js"></script>
+	</head>
+	<body>
+               
+                <div class="leftpane"> <img id="imgLogo" class="EWU" src="EWU.PNG" alt="EWU Logo" style="width:75px;height:75px;"> </div>  
+                <div class="middlepane" ><br><h1 id="lblBannerName">EWU Bus Arrivals / Departures</span></h1></div>
+                <br><br><br><br><br><br><br><br>
+
+                <div>      
+                        <h1>Select apperance theme</h1>
+                        <tr ><td>EWU theme</td><td> <input type='radio' id='badgeEWU'  name="myRadios" onclick="handleClick(this);" value="EWU" checked></td></tr>
+                        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;STA theme</td><td> <input type='radio' id='badgeSTA' name="myRadios" onclick="handleClick(this);" value="STA"></td></tr></br></br>
+                </br></br>
+                        <h1>Select Bus stops to display</h1>
+                        <tr><td>EWU PUB stop only </td><td> <input type='radio' id='badgeEWU'  name="myStopsRadios" onclick="handleClick_Stops(this);" value="STA_EWU" checked></td></tr>
+                        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;EWU PUB at Elm stop only</td><td> <input type='radio' id='badgeSTA' name="myStopsRadios" onclick="handleClick_Stops(this);" value="STA_ELMPUBWF"></td></tr>
+                        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;EWU PUB and EWU PUB at Elm stops </td><td> <input type='radio' id='badgeSTA' name="myStopsRadios" onclick="handleClick_Stops(this);" value="STA_EWU_and_STA_ELMPUBWF"></td></tr></br></br>
+                
+
+                        </br></br>
+                        </br></br>
+                        <input type='button' id='btnConfirm' value='Confirm changes' style='height:32px;width:128px'></br></br>
+                        
+                </div>   
+
+                
+        </body>
+        
+        
+</html>

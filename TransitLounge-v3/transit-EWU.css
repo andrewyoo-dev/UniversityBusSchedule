@@ -1,0 +1,89 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid rgb(164, 26, 50);
+   
+  }
+  
+  th, td {    
+    padding: 2px
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .leftpane {
+      width: 20%;
+      height: 15%;
+      float: left;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgb(164, 26, 50); 
+     
+  }
+  
+  .middlepane {
+      width: 50%;
+      height: 15%;
+      float: left;
+      border-style: solid;
+    border-width: 1px;
+    border-color: rgb(164, 26, 50); 
+    color: rgb(164, 26, 50); 
+      
+  }
+  
+  .rightpane {
+    width: 29%;
+    height: 15%;
+    /*position: relative; */
+    float: left;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(164, 26, 50);  
+  }
+  
+  .botpane {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(164, 26, 50);  
+  }
+
+  img.EWU {
+    height: 100%;
+    width: 100%;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+/*
+  div {
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;  
+  }
+  */
+
+  h1, img {
+    padding: 10px;
+  } 
